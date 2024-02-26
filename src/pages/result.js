@@ -14,20 +14,20 @@ export default function Result({ datas, info }) {
     <>
       <Head>
         <title>{info.judul_web ?? "Null Data"}</title>
-        <meta name="title" content={data.judul_web} />
+        <meta name="title" content={info.judul_web} />
         <meta name="description" content="Selamat datang di Sistem Pengumuman Kelulusan SMA Negeri Surulangun. Dapatkan informasi kelulusan terbaru secara cepat dan akurat di sini. ©2024 Made With ❤️ Arizki Putra Rahman" />
         <meta name="image" content="https://lulosdak.arizkinewbie.com/img/main-logo.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://lulosdak.arizkinewbie.com/" />
-        <meta property="og:title" content={data.judul_web} />
+        <meta property="og:title" content={info.judul_web} />
         <meta property="og:description" content="Selamat datang di Sistem Pengumuman Kelulusan SMA Negeri Surulangun. Dapatkan informasi kelulusan terbaru secara cepat dan akurat di sini. © 2024 Made With ❤️ Arizki Putra Rahman" />
         <meta property="og:image" content="https://lulosdak.arizkinewbie.com/img/main-logo.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://lulosdak.arizkinewbie.com/" />
-        <meta property="twitter:title" content={data.judul_web} />
+        <meta property="twitter:title" content={info.judul_web} />
         <meta property="twitter:description" content="Selamat datang di Sistem Pengumuman Kelulusan SMA Negeri Surulangun. Dapatkan informasi kelulusan terbaru secara cepat dan akurat di sini. © 2024 Made With ❤️ Arizki Putra Rahman" />
         <meta property="twitter:image" content="https://lulosdak.arizkinewbie.com/img/main-logo.png" />
       </Head>
