@@ -1,7 +1,6 @@
+# LulosDak (Website Kelulusan)
 
-# Website Kelulusan V2
 Website pengumuman kelulusan sederhana yang dibangun dengan Next.js
-
 
 ## Fitur
 
@@ -11,19 +10,14 @@ Website pengumuman kelulusan sederhana yang dibangun dengan Next.js
 - Buka tutup website
 - Single Page Aplication (SPA) pindah halaman tanpa reload tab
 
-
-
-
 ## Tech Stack
+
 - Next.js fullstack (Backend and Frontend)
 - Chakra UI
 - MySQL Database
 
-
-
-
-
 ## Screenshot
+
 - Halaman Login Siswa
 
 ![Screenshot](https://i.ibb.co/c88LSLn/skl1.png)
@@ -36,17 +30,15 @@ Website pengumuman kelulusan sederhana yang dibangun dengan Next.js
 
 ![admin1](https://i.ibb.co/Y23PHsM/skl3.png)
 
-
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/Irfanakbari/web-kelulusan-v2
+  git clone https://github.com/arizkinewbie/lulosdak
 ```
 
 Go to the project directory and configure database/environment variable
-
 
 Install dependencies
 
@@ -59,4 +51,3 @@ Start the server
 ```bash
   npm run dev
 ```
-
