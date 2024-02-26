@@ -1,42 +1,44 @@
 import connection from "@/config/connection.js";
-import {DataTypes} from "sequelize";
+import { DataTypes } from "sequelize";
 
-
-const Profile = connection.define('Profile', {
-    id : {
-        type : DataTypes.INTEGER,
-        allowNull : false,
-        primaryKey : true
+const Profile = connection.define(
+  "Profile",
+  {
+    id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
     },
-    nama_sekolah : {
-        type : DataTypes.STRING,
-        allowNull : false,
+    nama_sekolah: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
-    judul_web : {
-        type : DataTypes.STRING,
-        allowNull : true,
+    judul_web: {
+      type: DataTypes.STRING,
+      allowNull: true,
     },
-    button_label : {
-        type : DataTypes.STRING,
-        allowNull : true,
+    button_label: {
+      type: DataTypes.STRING,
+      allowNull: true,
     },
     kepsek: {
-        type : DataTypes.STRING,
-        allowNull : true
+      type: DataTypes.STRING,
+      allowNull: true,
     },
     isOpen: {
-        type : DataTypes.INTEGER,
-        allowNull : true
+      type: DataTypes.INTEGER,
+      allowNull: true,
     },
-    npsn :{
-        type : DataTypes.STRING,
-        allowNull : true
-    }
-},{
-    tableName: 'Profile',
+    npsn: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+  },
+  {
+    tableName: "profile",
     updatedAt: false,
-    createdAt : false
-})
-
+    createdAt: false,
+  }
+);
 
 export default Profile;
