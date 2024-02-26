@@ -18,7 +18,7 @@ function Navbar({ onClick }) {
       <IconButton aria-label="Open Drawer" size="md" onClick={onClick} variant="ghost" colorScheme="gray" icon={<HamburgerIcon color="gray.500" />} />
       <Box>
         <Text fontFamily={"Lato"} fontWeight={"500"} color={"gray.500"}>
-          Dashboard Admin | Made With ❤️ <a href="https://instagram.com/arizkinewbie">ArizkiNewbie</a>
+          Dashboard Admin | Made With ❤️ <a href="https://arizkinewbie.github.io/">Arizki Putra Rahman</a>
         </Text>
       </Box>
       <Button variant="solid" colorScheme={"blue"} onClick={onOpen}>
