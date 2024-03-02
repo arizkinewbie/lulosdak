@@ -35,7 +35,7 @@ Website pengumuman kelulusan sederhana yang dibangun dengan Next.js
 Clone the project
 
 ```bash
-  git clone https://github.com/arizkinewbie/lulosdak
+  git clone https://github.com/arizkinewbie/lulosdak.git
 ```
 
 Go to the project directory and configure database/environment variable
