@@ -1,0 +1,13 @@
+cmd: npm run dev
+cwd: /home/arizkine/lulosdak.arizkinewbie.com
+log:
+  file: /home/klikmed4/next-app-new/node.log
+  age: 86400
+  num: 7
+  size: 1
+pid:
+  parent: /home/arizkine/lulosdak.arizkinewbie.com/next-app-new.pid
+  child: /home/arizkine/lulosdak.arizkinewbie.com/next-app-new-child.pid
+env:
+  PORT: 43211
+onetime: false
